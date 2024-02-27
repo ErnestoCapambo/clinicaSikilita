@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,300,700">
+    <title>Mostrar-Produtos</title>
+</head>
+<body>
+    <header class="cabecalho container">
+        <a href="index.html"><h1 class="logo">ClínicaRG</h1></a>
+        <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Vendas</a></li>
+                <li><a href="#">Relatórios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner container">
+        <div class="title">
+            <h2>Soluções para a sua saúde!</h2>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt itaque reiciendis maiores natus accusantium quam iure at vel beatae, recusandae architecto provident voluptatibus expedita quisquam quod, est ullam inventore voluptatem.</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-entrar"> Área reservada <i class="fa fa-arrow-circle-right"></i></button>
+            <button class="btn btn-sobre"> Saber mais <i class="fa fa-question-circle"></i></button>
+        </div>
+    </div>
+    <main class="servicos container">
+        <article class="servico s1" onmouseover="mudarCor()">
+            <a href="consulta.html"><img src="consultorio.jpg" alt="consultas médicas"></a>
+            <div class="inner">
+                <a href="#" class="change">Consultas médicas</a>
+                <h4 class="change">Consultório, Análise diversas</h4>
+                <p class="change">Atendimento médico geral ou especializado, como pediatria, cardiologia, dermatologia, entre outros.</p>
+            </div>
+        </article>
+        <article class="servico s2" onmouseover="mudarCor()">
+            <a href="#"><img src="medicamentos.jpg" alt="Venda de medicamentos"></a>
+            <div class="inner">
+                <a href="#" class="change">Venda de medicamentos</a>
+                <h4 class="change">Vendas locais, e entrega domiciliar</h4>
+                <p class="change">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis unde minus, dolorem nobis cumque?</p>
+            </div>
+        </article>
+        <article class="servico s3" onmouseover="mudarCor()">
+            <a href="#"><img src="odontologia.jpg" alt="Odontologia"></a>
+            <div class="inner">
+                <a href="#" class="change">Serviços odontológicos</a>
+                <h4 class="change">Serviços odontológicos</h4>
+                <p class="change"> Consultas de rotina, limpezas dentárias, tratamentos de canal, extrações, colocação de próteses, entre outros.</p>
+            </div>
+        </article>
+    </main>
+    <!-- NEWSLETTER -->
+    <section class="newsletter container">
+        <h2> Marca já a sua consulta! </h2>
+        <h3> Preencha o seu calendario, e fique descansado.</h3>
+        <form>
+            <button><a href="consulta.html"><< Marcar consulta >></a></button>
+        </form>
+    </section>
+    <!-- RODAPE -->
+    <footer class="rodape container bg-gradient">
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram   "></i></a>
+        </div>
+        <p class="copyright">
+            Copyright @ ClínicaRG 2023. Todos os direitos reservados.
+        </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
